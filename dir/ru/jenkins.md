@@ -91,11 +91,5 @@ docker run -p 8080:8080 -p 50000:50000 --restart=on-failure jenkins/jenkins:lts
     `JENKINS_PORT=9090 brew services restart jenkins-lts`
 * **Ошибка архитектуры (M1/M2/M3):** Попробуйте принудительную установку:
     `arch -arm64 brew install jenkins-lts`
-"""
 
-with open("jenkins_macos_install.md", "w", encoding="utf-8") as f:
-    f.write(content)
-
-
-```
 
