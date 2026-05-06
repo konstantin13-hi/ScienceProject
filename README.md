@@ -3,6 +3,10 @@
 This project investigates Continuous Generation, Integration and Deployment (CG/CI/CD),
 where project artifacts are used as the primary source for software generation.
 
+
+<img width="731" height="525" alt="image" src="https://github.com/user-attachments/assets/bccb2783-6bbc-4c7f-9f9f-1d76c6329fdc" />
+
+
 ## Repositories
 
 ### Source Pipeline Repository
