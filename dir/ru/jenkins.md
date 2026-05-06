@@ -1,10 +1,4 @@
 
-```python?code_reference&code_event_index=1
-content = """# Установка Jenkins на macOS (через Homebrew)
-
-Это руководство содержит пошаговую инструкцию по установке и настройке Jenkins для современных систем macOS (Intel и Apple Silicon).
-
----
 
 ## 1. Установка Java
 Jenkins является Java-приложением и требует наличия **Java 17 или 21 (LTS)**.
