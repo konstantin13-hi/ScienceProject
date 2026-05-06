@@ -28,7 +28,7 @@ plantuml artifacts/domain.puml
 ## 2. Представление в документации
 В рамках научной работы или для отображения в GitHub README сгенерированную диаграмму можно вставить следующим образом:
 
-![Domain Diagram](artifacts/domain.png)
+```![Domain Diagram](artifacts/domain.png)```
 
 ---
 
