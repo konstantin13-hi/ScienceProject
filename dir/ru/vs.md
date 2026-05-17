@@ -32,6 +32,14 @@
 Переход от плоских таблиц к реляционной структуре.
 - **Поддержка:** Описание связей `OneToMany`, `ManyToMany` в модели.
 - **Эффект:** Генерация JPA-аннотаций и логики связывания объектов в Service-слое.
+- Но пока нет:
+
+* cascade
+* join tables customization
+* bidirectional sync logic
+* advanced service logic
+* DTO mapping
+* lazy/eager configs
 
 ### Version 6: Генерация Frontend-слоя
 Расширение системы до Full-stack генерации.
