@@ -1,0 +1,40 @@
+project:
+  name: Warehouse
+  package: com.example.warehouse
+
+entities:
+  Product:
+    fields:
+      id:
+        type: Long
+      name:
+        type: String
+        required: true
+      price:
+        type: Double
+        required: true
+      quantity:
+        type: Integer
+
+  Employee:
+    fields:
+      id:
+        type: Long
+      name:
+        type: String
+        required: true
+      position:
+        type: String
+
+  Delivery:
+    fields:
+      id:
+        type: Long
+      deliveryDate:
+        type: Date
+      supplier:
+        type: String
+    relations:
+      - type: OneToMany
+        target: Product
+        field: products

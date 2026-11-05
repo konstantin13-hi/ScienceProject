@@ -1,0 +1,42 @@
+project:
+  name: Clinic
+  package: com.example.clinic
+
+entities:
+  Doctor:
+    fields:
+      id:
+        type: Long
+      name:
+        type: String
+        required: true
+      specialization:
+        type: String
+
+  Patient:
+    fields:
+      id:
+        type: Long
+      name:
+        type: String
+        required: true
+      pesel:
+        type: String
+        required: true
+
+  Appointment:
+    fields:
+      id:
+        type: Long
+      date:
+        type: Date
+        required: true
+      fee:
+        type: Double
+    relations:
+      - type: ManyToOne
+        target: Doctor
+        field: doctor
+      - type: ManyToOne
+        target: Patient
+        field: patient

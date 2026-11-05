@@ -1,0 +1,24 @@
+useCases:
+  - entity: Patient
+    operation: create
+
+  - entity: Patient
+    operation: read
+
+  - entity: Patient
+    operation: update
+
+  - entity: Patient
+    operation: delete
+
+  - entity: Doctor
+    operation: read
+
+  - entity: Appointment
+    operation: create
+
+  - entity: Appointment
+    operation: read
+
+  - entity: Appointment
+    operation: update

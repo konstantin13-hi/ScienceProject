@@ -1,0 +1,27 @@
+useCases:
+  - entity: Product
+    operation: create
+
+  - entity: Product
+    operation: read
+
+  - entity: Product
+    operation: update
+
+  - entity: Product
+    operation: delete
+
+  - entity: Employee
+    operation: create
+
+  - entity: Employee
+    operation: read
+
+  - entity: Delivery
+    operation: create
+
+  - entity: Delivery
+    operation: read
+
+  - entity: Delivery
+    operation: update
